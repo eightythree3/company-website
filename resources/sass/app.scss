@@ -1,0 +1,187 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "./components/components";
+
+@font-face {
+    font-family: "You-are-a-TOY";
+    //src: url("You-are-a-TOY.ttf.woff") format("woff"),
+    //    url("You-are-a-TOY.ttf.svg#You-are-a-TOY") format("svg"),
+    //    url("You-are-a-TOY.ttf.eot"),
+    //    url("You-are-a-TOY.ttf.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #6682e9;
+    font-family: "You-are-a-TOY";
+    color: #fff;
+    font-size: 28px;
+}
+
+html,
+body {
+    height: 100%;
+    direction: ltr;
+}
+
+main {
+    height: 100%;
+}
+
+.container {
+    @media (min-width: 576px) {
+
+        .container-md,
+        .container-sm,
+        .container {
+            max-width: 90%;
+        }
+    }
+}
+
+.section {
+    position: relative;
+    max-height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    background-image: url("/img/Particles.png");
+    background-attachment: fixed;
+    z-index: 2;
+
+    @media (max-width: 768px) {
+        height: 100% !important;
+        padding: 100px 0;
+    }
+
+    &:first-child {
+        height: 100vh;
+    }
+
+    &:nth-child(2) {
+        box-shadow: 0px 10px 20px #000;
+
+    }
+}
+
+ol,
+ul,
+dl {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    line-height: 1.6;
+}
+
+*:focus {
+    outline: inherit !important;
+    box-shadow: none !important;
+}
+
+.title {
+    font-size: 62px;
+}
+
+.description {
+    font-size: 32px;
+}
+
+.service-list {
+    ul {
+        list-style-type: circle !important;
+    }
+}
+
+.reverse-column {
+    @media (max-width: 768px) {
+        order: 1;
+
+        img {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.fixed-section {
+    position: fixed;
+
+    @media (max-width: 768px) {
+        position: relative;
+    }
+}
+
+.my-btn {
+    color: white;
+    background: none;
+    border: none;
+    background-color: #63c47f;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+
+.top_to_bottom {
+    &:hover {
+        img.right-img {
+            animation: rotateImage 2.5s ease-in-out infinite;
+            position: relative;
+        }
+    }
+}
+
+.right_to_left {
+    &:hover {
+        img.right-img {
+            animation: rotateImageLeftRight 2.5s ease-in-out infinite;
+            position: relative;
+        }
+    }
+
+}
+
+@keyframes rotateImage {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 40px;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes rotateImageLeftRight {
+
+    0%,
+    100% {
+
+        transform: rotate(-10deg);
+    }
+
+    50% {
+
+        transform: rotate(10deg);
+    }
+}

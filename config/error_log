@@ -1,0 +1,72 @@
+[09-Sep-2021 18:19:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/services.php on line 18
+[09-Sep-2021 18:19:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/mail.php on line 16
+[09-Sep-2021 18:20:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/filesystems.php on line 16
+[09-Sep-2021 18:21:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
+[13-Sep-2021 23:50:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/services.php on line 18
+[13-Sep-2021 23:50:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/mail.php on line 16
+[13-Sep-2021 23:50:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/filesystems.php on line 16
+[13-Sep-2021 23:50:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
+[21-Oct-2021 14:13:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/services.php on line 18
+[21-Oct-2021 14:14:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/mail.php on line 16
+[21-Oct-2021 14:26:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/filesystems.php on line 16
+[21-Oct-2021 14:28:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
+[30-Oct-2021 14:22:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/services.php on line 18
+[30-Oct-2021 14:23:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/mail.php on line 16
+[30-Oct-2021 14:29:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/filesystems.php on line 16
+[30-Oct-2021 14:30:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
+[28-Feb-2022 12:47:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
+[28-Feb-2022 12:47:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eightyy1/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eightyy1/public_html/config/app.php on line 16
